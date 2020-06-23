@@ -312,7 +312,7 @@ def send_notification(args, change_list, current_config):
         body.append("</br>Updated By {0} {1} ({2})".format(first_name, last_name, email))
 
         if not args.is_debug:
-            recipient_list = args.notification_list
+            recipient_list = os.environ.get('EMAIL_TO_LIST', '').split(',')
             test_header = ""
             test_text = ""
             cc_list = os.environ.get('EMAIL_CC_LIST', '').split(',')
@@ -320,7 +320,7 @@ def send_notification(args, change_list, current_config):
             recipient_list = os.environ.get('EMAIL_TO_LIST_TEST', '').split(',')
             test_header = " ***TEST*** "
             test_text = "The following email is a test from the " + \
-            args.env + " environment. <br><br>"
+                args.env + " environment. <br><br>"
             cc_list = os.environ.get('EMAIL_CC_LIST_TEST', '').split(',')
         
         body.insert(0, test_text)
