@@ -79,19 +79,19 @@ a change is found an email with what changed is sent to the GMS admins
                   },
                   {
                      "key":"EMAIL_CC_LIST_TEST",
-                     "value":???
+                     "value":""
                   },
                   {
                      "key":"EMAIL_TO_LIST_TEST",
-                     "value":???
+                     "value":"dmurphy@macfound.org"
                   },
                   {
                      "key":"EMAIL_TO_LIST",
-                     "value":???
+                     "value":"cshield@macfound.org,scasey@macfound.org,dsiegel@macfound.org,epowley@macfound.org,dmurphy@macfound.org,devops@macfound.org,egonzale@macfound.org"
                   },
                   {
                      "key":"EMAIL_CC_LIST",
-                     "value":???
+                     "value":""
                   },
                   {
                      "key":"IS_DEBUG",
