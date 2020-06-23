@@ -86,6 +86,10 @@ a change is found an email with what changed is sent to the GMS admins
                      "value":???
                   },
                   {
+                     "key":"EMAIL_TO_LIST",
+                     "value":???
+                  },
+                  {
                      "key":"EMAIL_CC_LIST",
                      "value":???
                   },
