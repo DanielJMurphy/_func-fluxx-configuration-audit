@@ -111,7 +111,7 @@ a change is found an email with what changed is sent to the GMS admins
 
 ###### Execution Schedule:
 
-    The job is runs hourly
+    The job runs hourly
 
 
 
